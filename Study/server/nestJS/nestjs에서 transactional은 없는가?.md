@@ -1,0 +1,3 @@
+- nest에서 optimistic lock이 없엇는가?
+	- transaction전파 속성이 없었는가?
+- [!] 없다!
