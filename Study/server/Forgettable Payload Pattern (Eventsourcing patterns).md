@@ -2,7 +2,7 @@
  Like Crypto Shredding, the Forgettable Payloads technique relies on storing personal information in a separate database, far from the event store. **We only need to keep reference IDs to that external storage to retrieve personal information when needed.** When you receive the request to remove customers' personal information, you delete personal data from the external storage, leaving the event store untouched.
 
 ```JSON
-# An example of event payload where we only store reference ID to the customers' personal details.
+// An example of event payload where we only store reference ID to the customers' personal details.
 {
     "uuid": "f26164d0-2654-4434-9d88-56a9002e2d83",
     "event": "CustomerWasRegistered",
