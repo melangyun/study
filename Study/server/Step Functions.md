@@ -1,4 +1,4 @@
-AWS Step Function은 [[AWS Lambda]] 및 Amazon ECS의 워크플로우를 연결하여 Serverless 서비스의 설계를 명확하고 유연하게 만들어준다.
+AWS Step Function은 [[AWS Lambda 질문]] 및 Amazon ECS의 워크플로우를 연결하여 Serverless 서비스의 설계를 명확하고 유연하게 만들어준다.
 
 > 특히 많은 데이터들을 Lambda를 통해 처리할 때 Lambda의 제한 시간 <u>900초는 부족하다.</u>
 > Lambda의 Invoke를 사용해서 분산 API를 구성할 수 있지만, 유지보수가 힘들어지고, Invoke의 Timeout도 고려해야 한다.
