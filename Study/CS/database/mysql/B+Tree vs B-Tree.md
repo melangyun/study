@@ -1,4 +1,4 @@
-> [!check] B-Tree 의 핵심은 데이터가 정렬 된 상태로 유지되어 있다는 것이다.
+> [!check] B+Tree 의 핵심은 데이터가 정렬 된 상태로 유지되어 있다는 것이다.
 
 B-Tree(Balanced Tree)에서 변형되어 B+Tree가 되었다.
 Binary Tree가 아니라 Balanced Tree이기 때문에 자식이 2개 이상 가능하다.

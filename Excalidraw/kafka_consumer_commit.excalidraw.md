@@ -194,8 +194,8 @@ Offset commit ^w1iXsLfd
 		},
 		{
 			"type": "arrow",
-			"version": 140,
-			"versionNonce": 626077158,
+			"version": 141,
+			"versionNonce": 1759228326,
 			"isDeleted": false,
 			"id": "6sEBWyEcKjNVx-URIvLD8",
 			"fillStyle": "solid",
@@ -222,7 +222,7 @@ Offset commit ^w1iXsLfd
 					"id": "4g2LI7sZ"
 				}
 			],
-			"updated": 1703476996134,
+			"updated": 1703594887693,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -358,8 +358,8 @@ Offset commit ^w1iXsLfd
 		},
 		{
 			"type": "arrow",
-			"version": 524,
-			"versionNonce": 1612672102,
+			"version": 525,
+			"versionNonce": 587369702,
 			"isDeleted": false,
 			"id": "7qavsnW5BZHio61jjazVT",
 			"fillStyle": "solid",
@@ -381,14 +381,14 @@ Offset commit ^w1iXsLfd
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1703476996134,
+			"updated": 1703594887694,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
 			"endBinding": {
 				"elementId": "o2376FkNOGZ5HjWMv1D8o",
-				"focus": -0.5931781683672762,
-				"gap": 19.08551025390622
+				"gap": 19.08551025390622,
+				"focus": -0.5931781683672762
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -443,8 +443,8 @@ Offset commit ^w1iXsLfd
 		},
 		{
 			"type": "arrow",
-			"version": 330,
-			"versionNonce": 1468067750,
+			"version": 334,
+			"versionNonce": 484043238,
 			"isDeleted": false,
 			"id": "Er9luMkbubq2sQd00PiZu",
 			"fillStyle": "solid",
@@ -458,7 +458,7 @@ Offset commit ^w1iXsLfd
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 220.5147705078125,
-			"height": 62.3961181640625,
+			"height": 62.39611816406253,
 			"seed": 1269624250,
 			"groupIds": [],
 			"frameId": null,
@@ -471,18 +471,18 @@ Offset commit ^w1iXsLfd
 					"id": "w1iXsLfd"
 				}
 			],
-			"updated": 1703476996134,
+			"updated": 1703594887696,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "4fXOpj_lBNwujHvD40aT5",
-				"focus": -0.10883231856142964,
-				"gap": 25.108642578125
+				"gap": 25.108642578125,
+				"focus": -0.10883231856142964
 			},
 			"endBinding": {
 				"elementId": "o2376FkNOGZ5HjWMv1D8o",
-				"focus": 0.7723632174872032,
-				"gap": 5.5589599609375
+				"gap": 5.5589599609375,
+				"focus": 0.7723632174872032
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -494,7 +494,7 @@ Offset commit ^w1iXsLfd
 				],
 				[
 					-220.5147705078125,
-					62.3961181640625
+					62.39611816406253
 				]
 			]
 		},
@@ -537,8 +537,8 @@ Offset commit ^w1iXsLfd
 		},
 		{
 			"type": "text",
-			"version": 259,
-			"versionNonce": 1179650790,
+			"version": 319,
+			"versionNonce": 155153914,
 			"isDeleted": false,
 			"id": "MCrL74hY",
 			"fillStyle": "solid",
@@ -547,21 +547,21 @@ Offset commit ^w1iXsLfd
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 6.000367105930436,
-			"x": -104.46566772460938,
-			"y": -54.09052276611328,
+			"x": -79.13503568639487,
+			"y": -49.881136060892196,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 203.55979919433594,
-			"height": 75,
+			"width": 140.7547408127884,
+			"height": 51.85997236556947,
 			"seed": 1373347642,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1703476996134,
+			"updated": 1703594900595,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 13.829325964151861,
 			"fontFamily": 1,
 			"text": "정상 처리된 메시지의\n최종 위치를 알림\n-> Committed Offset",
 			"rawText": "정상 처리된 메시지의\n최종 위치를 알림\n-> Committed Offset",
@@ -570,7 +570,7 @@ Offset commit ^w1iXsLfd
 			"containerId": null,
 			"originalText": "정상 처리된 메시지의\n최종 위치를 알림\n-> Committed Offset",
 			"lineHeight": 1.25,
-			"baseline": 67
+			"baseline": 46.99999999999999
 		}
 	],
 	"appState": {
@@ -588,10 +588,10 @@ Offset commit ^w1iXsLfd
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 431.92030875234747,
-		"scrollY": 760.5846187837102,
+		"scrollX": 390.0033805601058,
+		"scrollY": 641.081875997132,
 		"zoom": {
-			"value": 1.2883998643524015
+			"value": 1.55
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
