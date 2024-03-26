@@ -30,7 +30,7 @@ DDD의 설계는 `전략적 설계`, `전술적 설계` 크게 두가지 접근�
 > >사례: [MSA 에서 유비쿼터스 언어(보편 언어)의 중요성](https://medium.com/dtevangelist/msa-%EC%97%90%EC%84%9C-%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4-%EC%96%B8%EC%96%B4-%EB%B3%B4%ED%8E%B8-%EC%96%B8%EC%96%B4-%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-ca22b96aaeea)
 >- `Reward` 가 사용자에게 주어지면, 사용자 입장에서는 `Item`인가?
 >- 운동을 안해서 주는 경고도 `Reward`인가?
->- 내가 운동을 많애 했다고 (선물이 아닌) 칭찬 메시지가 오는것도 `Reward` 인가?
+>- 내가 운동을 많이 했다고 (선물이 아닌) 칭찬 메시지가 오는것도 `Reward` 인가?
 >- 친구가 나를 역전했다고 알려주는것도 `Reword`인가?
 >---
 >- 챌린지와 목표의 차이는?
@@ -103,6 +103,8 @@ DDD의 설계는 `전략적 설계`, `전술적 설계` 크게 두가지 접근�
 
 개별 컨텍스트 내에서 어떻게 모델링하고 구현할것인가?
 
+![](https://blog.kakaocdn.net/dn/bNy7w0/btqFONGJZx4/Q2LLJxC4HJpO9GH8wrwoHK/img.png)
+
 - (크게봤을때 )`layered Architecture` 혹은 `clean Architecture` 중심으로
 ![](https://velog.velcdn.com/images/pjh1011409/post/7251ffdf-498f-4ec5-b200-c1c834be6c64/image.png)
 ![](https://miro.medium.com/v2/resize:fit:1400/0*v2EisG6QUMmr7e4G)
@@ -111,18 +113,19 @@ DDD의 설계는 `전략적 설계`, `전술적 설계` 크게 두가지 접근�
 - 헥사고날은 선택의 영역
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbSBinD%2FbtrlZuAWOpH%2FmnhzGhWJR7ijQmFXK7au8K%2Fimg.png)
 
-- `도메인` 중심이기 때문에 transaction의 제어 단위는 Aggregate가 가져간다고 생각하면 편한듯
+- `도메인` 중심이기 때문에 transaction의 제어 단위는 Aggregate가 가져간다고 생각하면됨
 - 접근 지점은 Aggregate -> 캡슐화
-- `느슨한 결합`과 `높은 응집도` 를 목표로 하기때문에 EDA도 함께.. 
+- `느슨한 결합`과 `높은 응집도` 를 강조하기 하기때문에 EDA도 함께.. 
 
 >[!example] 유저 회원가입 플로우
 >1. 유저 controller를 통한 회원가입
 >2. service에서 비즈니스 로직이
 >3. Domain에서 domain 로직이 수행됨
 >4. database save 와 함께 `user.created 도메인 이벤트` 발행
+>5. 이를 구독하고 있는 다른 도메인에서 수신하여 액션
 
 
-- CQRS, Event Sourcing.. 욕심내기 시작하면 끝도 없는데 모든건 필수가 아닌 선택의 영역입니다.
+- CQRS, Event Sourcing.. 욕심내기 시작하면 끝도 없는데 전술적 설계의 모든건 필수가 아닌 선택의 영역입니다.
 # 언제하는게 좋을까?
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7hfGxerrsQbpL7Oa15JfbQ.jpeg)
