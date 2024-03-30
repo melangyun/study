@@ -156,5 +156,6 @@ DDD의 설계는 `전략적 설계`, `전술적 설계` 크게 두가지 접근�
 
 
 ---
+<발표자료>
 [Part 1: Domain Driven Design like a pro 🏅](https://medium.com/raa-labs/part-1-domain-driven-design-like-a-pro-f9e78d081f10) 
 [[NHN FORWARD - DDD 뭣이 중헌디]]

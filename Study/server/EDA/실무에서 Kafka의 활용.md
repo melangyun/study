@@ -87,7 +87,7 @@
 
 ### 정상적인 동작시의 흐름
 
-[[kafka_consumer_commit.excalidraw]]
+[[카프카 컨슈머 흐름]]
 
 1. poll() 메서드가 호출될 때마다 그룹의 컨슈머들이 파티션에서 아직 읽지 않은 메시지를 반환한다.
    이 때 읽어들인 위치만큼 Consumed Offset이 업데이트 된다.
