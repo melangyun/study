@@ -1,2 +1,1 @@
 - [[github private repository]]
-- [[mysql readonly option]]
