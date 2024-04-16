@@ -109,6 +109,44 @@ COMMIT
 - 매번 INSERT를 반복함
 - 갱신된 Entity를 생성하기 위해 다시  SELECT을 하게된다.
 
+> [!question]  이때 Pk(id)를 어떻게 알고 SELECT 할까?
+> mysql driver가 mysql과 통신할때, 응답 패킷에 `last-insert-id`를 넘겨주게 된다. 이를 갱신된 Entity를 생성하기 위해 다시 SELECT 하게 되는것.
+
+> [!tip] saveOption에 여러 옵션이 존재다.
+> 
+> ```ts
+> export interface SaveOptions {  
+   transaction?: boolean; // TRANSACTION을 하지 않을 수 있습니다.  
+  chunk?: number; // 데이터가 배열일때, chunk 개수를 설정할 수 있습니다.  
+  reload?: boolean; // Entity를 Reload 합니다.  
+}
+> ```
+
+## .insert()
+단순한 insert 명령어를 사용할 수 있다. `save()`와 다르게 단순 쿼리를 한다.
+```ts
+await User.insert(rows)
+
+START TRANSACTION  
+INSERT INTO user(id, name) VALUES (DEFAULT, '김직방'), (DEFAULT, '박직방')  
+SELECT User.id AS User_id, User.name AS User_name FROM user User WHERE User.id = 111  
+COMMIT
+```
+응답값을 위해 SELECT 을 한다.
+
+## QueryBuilder
+쿼리빌더로 만든 insert는 Insert만 한다
+```ts
+await User.createQueryBuilder()  
+.insert()  
+.values(rows)  
+.updateEntity(false)  
+.execute()  
+// SQL  
+INSERT INTO user(id, name) VALUES (DEFAULT, '김직방'), (DEFAULT, '박직방')
+```
+
+> [!tip] 의외로 불필요한 Query가 많아 최적화할 필요가 있다.
 
 
 ---
