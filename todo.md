@@ -2,7 +2,11 @@
 - [[github private repository]]
 - [컨벤션 정하기](https://techblog.woowahan.com/9804/)
 - [머클트리와 머클루트](https://ohou.se/productions/971178/selling)
+- [매번 헷갈리는 CI/CD 배포 전략 정리해버리기](https://dev.classmethod.jp/articles/ci-cd-deployment-strategies-kr/)
+- [머지 종류](https://minemanemo.tistory.com/46)
 
+- ecs, eks
+- ebs
 
 - [EDA](https://medium.com/dtevangelist/event-driven-microservice-%EB%9E%80-54b4eaf7cc4a)
 - [blocking/Non-blocking, sync/async](https://velog.io/@maketheworldwise/SyncAsync-BlockingNon-Blocking-%EB%AC%B4%EC%8A%A8-%EC%B0%A8%EC%9D%B4%EC%9D%BC%EA%B9%8C)
