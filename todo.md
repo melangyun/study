@@ -1,8 +1,6 @@
 - [nodejs event eventemitter](https://iskull-dev.tistory.com/198)
 - [[github private repository]]
 - [컨벤션 정하기](https://techblog.woowahan.com/9804/)
-- [머클트리와 머클루트](https://ohou.se/productions/971178/selling)
-- [매번 헷갈리는 CI/CD 배포 전략 정리해버리기](https://dev.classmethod.jp/articles/ci-cd-deployment-strategies-kr/)
 - [머지 종류](https://minemanemo.tistory.com/46)
 
 - ecs, eks
