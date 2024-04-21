@@ -70,18 +70,22 @@ Quorum모델 사용 (다수결 투표)
 만일 6개중 4개의 노드에만기록되었을 경우
 완전한 데이터로 인정하겠다 ^prBJkTJm
 
+Writer인스턴스가 데이터를 작성하면,
+Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터를 동기화 하고
+이 데이터는 모든 스토리지 노드를 통해 동시에 접근이 가능하다. ^EUkN3AfD
+
 %%
 # Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.25",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.4",
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 927,
-			"versionNonce": 647907339,
+			"version": 928,
+			"versionNonce": 1893196068,
 			"isDeleted": false,
 			"id": "vdHPc53CDwDqrJzpmuBIb",
 			"fillStyle": "hachure",
@@ -108,14 +112,14 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711814793033,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 849,
-			"versionNonce": 361578187,
+			"version": 850,
+			"versionNonce": 300757788,
 			"isDeleted": false,
 			"id": "XbueB5BrMQkhnq77RDib9",
 			"fillStyle": "hachure",
@@ -137,14 +141,14 @@ Quorum모델 사용 (다수결 투표)
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1711814792171,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 860,
-			"versionNonce": 1447603173,
+			"version": 861,
+			"versionNonce": 889724068,
 			"isDeleted": false,
 			"id": "Q_w_AoBZ_yVZSb7DKVxcP",
 			"fillStyle": "hachure",
@@ -166,14 +170,14 @@ Quorum모델 사용 (다수결 투표)
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1711814409816,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 387,
-			"versionNonce": 1146822475,
+			"version": 389,
+			"versionNonce": 345010076,
 			"isDeleted": false,
 			"id": "mxfGA4PFie74496ujUVaE",
 			"fillStyle": "solid",
@@ -183,7 +187,7 @@ Quorum모델 사용 (다수결 투표)
 			"opacity": 100,
 			"angle": 0,
 			"x": -145.74068055141413,
-			"y": -750.8374029765188,
+			"y": -750.8374029765189,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 222.8491586538462,
@@ -204,14 +208,14 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711814289905,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 483,
-			"versionNonce": 435092971,
+			"version": 485,
+			"versionNonce": 245688356,
 			"isDeleted": false,
 			"id": "gCNV1D8a",
 			"fillStyle": "solid",
@@ -221,7 +225,7 @@ Quorum모델 사용 (다수결 투표)
 			"opacity": 100,
 			"angle": 0,
 			"x": -114.9960252357215,
-			"y": -710.5226019963911,
+			"y": -710.5226019963912,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 161.35984802246094,
@@ -231,7 +235,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711814289905,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -243,12 +247,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "mxfGA4PFie74496ujUVaE",
 			"originalText": "Cluster Endpoint\n(Aurora cluster)",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 900,
-			"versionNonce": 1718381387,
+			"version": 906,
+			"versionNonce": 1217928220,
 			"isDeleted": false,
 			"id": "SsWZ5l-grMGsiCfkfstF9",
 			"fillStyle": "solid",
@@ -281,36 +285,16 @@ Quorum모델 사용 (다수결 투표)
 				{
 					"id": "9-oNWiBvL9BKmT4FZTdY6",
 					"type": "arrow"
-				},
-				{
-					"id": "-llzfj1-Icniv4a8RQO9V",
-					"type": "arrow"
-				},
-				{
-					"id": "cGEUe-1EpHReuGdbdwlN-",
-					"type": "arrow"
-				},
-				{
-					"id": "ogZJgV8jQCv2f9WICpjW8",
-					"type": "arrow"
-				},
-				{
-					"id": "5C20_l75YxIV5xmhzOWyE",
-					"type": "arrow"
-				},
-				{
-					"id": "Ge3BF9PcWbb0PO0bQaAwE",
-					"type": "arrow"
 				}
 			],
-			"updated": 1711812604327,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1056,
-			"versionNonce": 1432027877,
+			"version": 1057,
+			"versionNonce": 1100759972,
 			"isDeleted": false,
 			"id": "VB6wwwc5",
 			"fillStyle": "solid",
@@ -330,7 +314,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604327,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -342,12 +326,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "SsWZ5l-grMGsiCfkfstF9",
 			"originalText": "primary instance",
 			"lineHeight": 1.25,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 1714,
-			"versionNonce": 1286782763,
+			"version": 1723,
+			"versionNonce": 1744189596,
 			"isDeleted": false,
 			"id": "B99ErKRdNnm4Ica1EP4Of",
 			"fillStyle": "solid",
@@ -356,12 +340,12 @@ Quorum모델 사용 (다수결 투표)
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -42.29350797089472,
-			"y": -618.8719293130794,
+			"x": -42.294397196252305,
+			"y": -618.8719293130796,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 3.030820779933606,
-			"height": 104.97211753122133,
+			"width": 3.0313320143193394,
+			"height": 104.97211753122144,
 			"seed": 1107806661,
 			"groupIds": [],
 			"frameId": null,
@@ -369,7 +353,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711814289905,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -391,15 +375,15 @@ Quorum모델 사용 (다수결 투표)
 					0
 				],
 				[
-					3.030820779933606,
-					104.97211753122133
+					3.0313320143193394,
+					104.97211753122144
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1152,
-			"versionNonce": 502459557,
+			"version": 1153,
+			"versionNonce": 1679568676,
 			"isDeleted": false,
 			"id": "G3uDm0C0xvFNrMXsKBLXB",
 			"fillStyle": "solid",
@@ -442,14 +426,14 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711814309432,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1376,
-			"versionNonce": 1016598533,
+			"version": 1377,
+			"versionNonce": 509396252,
 			"isDeleted": false,
 			"id": "7UIUcjnh",
 			"fillStyle": "solid",
@@ -469,7 +453,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711814309433,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -481,12 +465,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "G3uDm0C0xvFNrMXsKBLXB",
 			"originalText": "Reader Endpoint\n(Replica loadbalance)",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 1418,
-			"versionNonce": 1480035115,
+			"version": 1419,
+			"versionNonce": 378710692,
 			"isDeleted": false,
 			"id": "gQzE4WPuVcpmWlr_Ootbk",
 			"fillStyle": "solid",
@@ -525,14 +509,14 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711812604327,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1673,
-			"versionNonce": 289034501,
+			"version": 1674,
+			"versionNonce": 1363001756,
 			"isDeleted": false,
 			"id": "6Z7E6r3z",
 			"fillStyle": "solid",
@@ -552,7 +536,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604327,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -564,12 +548,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "gQzE4WPuVcpmWlr_Ootbk",
 			"originalText": "instance",
 			"lineHeight": 1.25,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 970,
-			"versionNonce": 740577163,
+			"version": 979,
+			"versionNonce": 1001240100,
 			"isDeleted": false,
 			"id": "1rDeONUIBBDo_gJllYXXC",
 			"fillStyle": "solid",
@@ -578,11 +562,11 @@ Quorum모델 사용 (다수결 투표)
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 367.2690285462703,
+			"x": 367.26718227596774,
 			"y": -458.29056021111427,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 50.84814110457825,
+			"width": 50.8470198134591,
 			"height": 102.70873227503722,
 			"seed": 288721675,
 			"groupIds": [],
@@ -591,7 +575,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711814309988,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -613,15 +597,15 @@ Quorum모델 사용 (다수결 투표)
 					0
 				],
 				[
-					-50.84814110457825,
+					-50.8470198134591,
 					102.70873227503722
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 1226,
-			"versionNonce": 2043094603,
+			"version": 1235,
+			"versionNonce": 1741368860,
 			"isDeleted": false,
 			"id": "hLn9G0DQrePqe7qkV39_n",
 			"fillStyle": "solid",
@@ -630,11 +614,11 @@ Quorum모델 사용 (다수결 투표)
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 448.2877835627077,
+			"x": 448.2894916664417,
 			"y": -460.4278932101486,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 61.28474052865403,
+			"width": 61.2836607369552,
 			"height": 102.01686282552367,
 			"seed": 917577899,
 			"groupIds": [],
@@ -643,7 +627,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711814309988,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -665,15 +649,15 @@ Quorum모델 사용 (다수결 투표)
 					0
 				],
 				[
-					61.28474052865403,
+					61.2836607369552,
 					102.01686282552367
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 793,
-			"versionNonce": 138677259,
+			"version": 794,
+			"versionNonce": 811291044,
 			"isDeleted": false,
 			"id": "dp8OatiL",
 			"fillStyle": "solid",
@@ -698,7 +682,7 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711814370181,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -714,8 +698,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 377,
-			"versionNonce": 299720363,
+			"version": 378,
+			"versionNonce": 318179996,
 			"isDeleted": false,
 			"id": "v2OYW9f7",
 			"fillStyle": "solid",
@@ -735,7 +719,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711815030941,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -751,8 +735,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 335,
-			"versionNonce": 57215243,
+			"version": 336,
+			"versionNonce": 63536420,
 			"isDeleted": false,
 			"id": "rxW3Neyj",
 			"fillStyle": "solid",
@@ -772,7 +756,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711814298836,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -788,8 +772,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 488,
-			"versionNonce": 1848270245,
+			"version": 489,
+			"versionNonce": 359880476,
 			"isDeleted": false,
 			"id": "F4Ipd8sz",
 			"fillStyle": "solid",
@@ -809,7 +793,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711814300518,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -821,12 +805,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": null,
 			"originalText": "Single-Master구조 기준",
 			"lineHeight": 1.25,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
-			"version": 282,
-			"versionNonce": 1407131051,
+			"version": 283,
+			"versionNonce": 795228324,
 			"isDeleted": false,
 			"id": "17i3WJ-wBeuhq_BxlFhJJ",
 			"fillStyle": "solid",
@@ -847,20 +831,15 @@ Quorum모델 사용 (다수결 투표)
 			"roundness": {
 				"type": 3
 			},
-			"boundElements": [
-				{
-					"id": "-llzfj1-Icniv4a8RQO9V",
-					"type": "arrow"
-				}
-			],
-			"updated": 1711812604328,
+			"boundElements": [],
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 323,
-			"versionNonce": 862660229,
+			"version": 324,
+			"versionNonce": 196219804,
 			"isDeleted": false,
 			"id": "wskJE5B3",
 			"fillStyle": "solid",
@@ -880,7 +859,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -892,12 +871,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": null,
 			"originalText": "Aurora Storage Cluster",
 			"lineHeight": 1.25,
-			"baseline": 25
+			"baseline": 24
 		},
 		{
 			"type": "rectangle",
-			"version": 308,
-			"versionNonce": 1763979339,
+			"version": 309,
+			"versionNonce": 1323271204,
 			"isDeleted": false,
 			"id": "h43ifr2WAf0D7D4aKjpbP",
 			"fillStyle": "solid",
@@ -928,14 +907,14 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 253,
-			"versionNonce": 1320029669,
+			"version": 254,
+			"versionNonce": 870662172,
 			"isDeleted": false,
 			"id": "ReYgOxCG",
 			"fillStyle": "solid",
@@ -955,7 +934,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -967,12 +946,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "h43ifr2WAf0D7D4aKjpbP",
 			"originalText": "storage\nNode",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 328,
-			"versionNonce": 1164832491,
+			"version": 330,
+			"versionNonce": 1478713252,
 			"isDeleted": false,
 			"id": "bM_RjprX7kMLrgCkMbfkO",
 			"fillStyle": "solid",
@@ -997,24 +976,16 @@ Quorum모델 사용 (다수결 투표)
 				{
 					"type": "text",
 					"id": "0MTeUNtY"
-				},
-				{
-					"id": "-llzfj1-Icniv4a8RQO9V",
-					"type": "arrow"
-				},
-				{
-					"id": "cGEUe-1EpHReuGdbdwlN-",
-					"type": "arrow"
 				}
 			],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 272,
-			"versionNonce": 64817477,
+			"version": 273,
+			"versionNonce": 905895068,
 			"isDeleted": false,
 			"id": "0MTeUNtY",
 			"fillStyle": "solid",
@@ -1034,7 +1005,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1046,12 +1017,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "bM_RjprX7kMLrgCkMbfkO",
 			"originalText": "storage\nNode",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 400,
-			"versionNonce": 2068240779,
+			"version": 402,
+			"versionNonce": 1398786852,
 			"isDeleted": false,
 			"id": "exU5Br7dGIzvBVoUWQIZ8",
 			"fillStyle": "solid",
@@ -1078,26 +1049,18 @@ Quorum모델 사용 (다수결 투표)
 					"id": "jIAhboT1"
 				},
 				{
-					"id": "cGEUe-1EpHReuGdbdwlN-",
-					"type": "arrow"
-				},
-				{
-					"id": "ogZJgV8jQCv2f9WICpjW8",
-					"type": "arrow"
-				},
-				{
 					"id": "mmew3nMlbdNVXc6AOUy11",
 					"type": "arrow"
 				}
 			],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 342,
-			"versionNonce": 1683331237,
+			"version": 343,
+			"versionNonce": 1806756124,
 			"isDeleted": false,
 			"id": "jIAhboT1",
 			"fillStyle": "solid",
@@ -1117,7 +1080,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1129,12 +1092,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "exU5Br7dGIzvBVoUWQIZ8",
 			"originalText": "storage\nNode",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 415,
-			"versionNonce": 1743351851,
+			"version": 417,
+			"versionNonce": 318949028,
 			"isDeleted": false,
 			"id": "e9Aai5mKjUMmg7UVEMjiU",
 			"fillStyle": "solid",
@@ -1159,20 +1122,16 @@ Quorum모델 사용 (다수결 투표)
 				{
 					"type": "text",
 					"id": "nsVVo4wZ"
-				},
-				{
-					"id": "ogZJgV8jQCv2f9WICpjW8",
-					"type": "arrow"
 				}
 			],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 361,
-			"versionNonce": 2042969093,
+			"version": 362,
+			"versionNonce": 678258076,
 			"isDeleted": false,
 			"id": "nsVVo4wZ",
 			"fillStyle": "solid",
@@ -1192,7 +1151,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1204,12 +1163,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "e9Aai5mKjUMmg7UVEMjiU",
 			"originalText": "storage\nNode",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 342,
-			"versionNonce": 1564488395,
+			"version": 344,
+			"versionNonce": 1807372836,
 			"isDeleted": false,
 			"id": "Esb5Jtx_1HIjs6UCyRx-m",
 			"fillStyle": "solid",
@@ -1234,20 +1193,16 @@ Quorum모델 사용 (다수결 투표)
 				{
 					"type": "text",
 					"id": "x8iaBxwU"
-				},
-				{
-					"id": "5C20_l75YxIV5xmhzOWyE",
-					"type": "arrow"
 				}
 			],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 288,
-			"versionNonce": 1009349477,
+			"version": 289,
+			"versionNonce": 23482908,
 			"isDeleted": false,
 			"id": "x8iaBxwU",
 			"fillStyle": "solid",
@@ -1267,7 +1222,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1279,12 +1234,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "Esb5Jtx_1HIjs6UCyRx-m",
 			"originalText": "storage\nNode",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "rectangle",
-			"version": 363,
-			"versionNonce": 65207755,
+			"version": 365,
+			"versionNonce": 1819569572,
 			"isDeleted": false,
 			"id": "Z0gO1eGTFBkvR5SCO8D4l",
 			"fillStyle": "solid",
@@ -1311,22 +1266,18 @@ Quorum모델 사용 (다수결 투표)
 					"id": "0XMyDoga"
 				},
 				{
-					"id": "Ge3BF9PcWbb0PO0bQaAwE",
-					"type": "arrow"
-				},
-				{
 					"id": "qpBMJ7ZOHPS8yke5DHkqj",
 					"type": "arrow"
 				}
 			],
-			"updated": 1711813980121,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 309,
-			"versionNonce": 36962027,
+			"version": 310,
+			"versionNonce": 361606812,
 			"isDeleted": false,
 			"id": "0XMyDoga",
 			"fillStyle": "solid",
@@ -1346,7 +1297,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711813980121,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1358,12 +1309,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "Z0gO1eGTFBkvR5SCO8D4l",
 			"originalText": "storage\nNode",
 			"lineHeight": 1.25,
-			"baseline": 43
+			"baseline": 42
 		},
 		{
 			"type": "arrow",
-			"version": 740,
-			"versionNonce": 993047787,
+			"version": 749,
+			"versionNonce": 375331108,
 			"isDeleted": false,
 			"id": "9-oNWiBvL9BKmT4FZTdY6",
 			"fillStyle": "solid",
@@ -1385,7 +1336,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711813980121,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1413,269 +1364,9 @@ Quorum모델 사용 (다수결 투표)
 			]
 		},
 		{
-			"type": "arrow",
-			"version": 969,
-			"versionNonce": 1949480491,
-			"isDeleted": false,
-			"id": "-llzfj1-Icniv4a8RQO9V",
-			"fillStyle": "solid",
-			"strokeWidth": 0.5,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -46.18905785078889,
-			"y": -348.7009022157158,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 56.045310960030406,
-			"height": 354.7432618635561,
-			"seed": 1790498955,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1711813980121,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "SsWZ5l-grMGsiCfkfstF9",
-				"gap": 16.888521477990025,
-				"focus": 0.23790328348226672
-			},
-			"endBinding": {
-				"elementId": "bM_RjprX7kMLrgCkMbfkO",
-				"gap": 13.036958118459381,
-				"focus": 0.022459390943088537
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					56.045310960030406,
-					354.7432618635561
-				]
-			]
-		},
-		{
-			"type": "arrow",
-			"version": 1132,
-			"versionNonce": 521496427,
-			"isDeleted": false,
-			"id": "cGEUe-1EpHReuGdbdwlN-",
-			"fillStyle": "solid",
-			"strokeWidth": 0.5,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -44.056044276453946,
-			"y": -353.72070372255837,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 205.01139682528424,
-			"height": 351.4885280673725,
-			"seed": 571595115,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1711813980121,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "SsWZ5l-grMGsiCfkfstF9",
-				"gap": 11.86871997114747,
-				"focus": 0.4261463184719737
-			},
-			"endBinding": {
-				"elementId": "exU5Br7dGIzvBVoUWQIZ8",
-				"gap": 24.224751586244622,
-				"focus": 0.44220444403722897
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					205.01139682528424,
-					351.4885280673725
-				]
-			]
-		},
-		{
-			"type": "arrow",
-			"version": 1241,
-			"versionNonce": 63756779,
-			"isDeleted": false,
-			"id": "ogZJgV8jQCv2f9WICpjW8",
-			"fillStyle": "solid",
-			"strokeWidth": 0.5,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -44.15411586320826,
-			"y": -353.51246321176325,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 336.9470971486111,
-			"height": 348.6016406155402,
-			"seed": 1116954085,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1711813980121,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "SsWZ5l-grMGsiCfkfstF9",
-				"gap": 12.076960481942592,
-				"focus": 0.5531861836519959
-			},
-			"endBinding": {
-				"elementId": "e9Aai5mKjUMmg7UVEMjiU",
-				"gap": 25.706608458096355,
-				"focus": 0.633742009038225
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					336.9470971486111,
-					348.6016406155402
-				]
-			]
-		},
-		{
-			"type": "arrow",
-			"version": 1415,
-			"versionNonce": 1170840363,
-			"isDeleted": false,
-			"id": "5C20_l75YxIV5xmhzOWyE",
-			"fillStyle": "solid",
-			"strokeWidth": 0.5,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -42.35793140189173,
-			"y": -355.07121203574195,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 478.74631302035743,
-			"height": 351.1258840172787,
-			"seed": 1531029067,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1711813980121,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "SsWZ5l-grMGsiCfkfstF9",
-				"gap": 10.518211657963832,
-				"focus": 0.6244480065250135
-			},
-			"endBinding": {
-				"elementId": "Esb5Jtx_1HIjs6UCyRx-m",
-				"gap": 22.934995858751734,
-				"focus": 0.7261473436860031
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					478.74631302035743,
-					351.1258840172787
-				]
-			]
-		},
-		{
-			"type": "arrow",
-			"version": 1482,
-			"versionNonce": 1540376331,
-			"isDeleted": false,
-			"id": "Ge3BF9PcWbb0PO0bQaAwE",
-			"fillStyle": "solid",
-			"strokeWidth": 0.5,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -27.029750691781146,
-			"y": -347.2817952888971,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 579.828555318697,
-			"height": 343.02016194440165,
-			"seed": 2066305835,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1711813980121,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "SsWZ5l-grMGsiCfkfstF9",
-				"gap": 18.307628404808668,
-				"focus": 0.6715141756911491
-			},
-			"endBinding": {
-				"elementId": "Z0gO1eGTFBkvR5SCO8D4l",
-				"gap": 22.054511115598586,
-				"focus": 0.7179914922549164
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					579.828555318697,
-					343.02016194440165
-				]
-			]
-		},
-		{
 			"type": "rectangle",
-			"version": 1562,
-			"versionNonce": 1930465419,
+			"version": 1563,
+			"versionNonce": 1435859740,
 			"isDeleted": false,
 			"id": "ssZURFtFjWf9daq8xjiQ0",
 			"fillStyle": "solid",
@@ -1714,14 +1405,14 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711812607983,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1819,
-			"versionNonce": 100425355,
+			"version": 1820,
+			"versionNonce": 350770340,
 			"isDeleted": false,
 			"id": "tozfySgX",
 			"fillStyle": "solid",
@@ -1741,7 +1432,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812604328,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1753,12 +1444,12 @@ Quorum모델 사용 (다수결 투표)
 			"containerId": "ssZURFtFjWf9daq8xjiQ0",
 			"originalText": "instance",
 			"lineHeight": 1.25,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "text",
-			"version": 59,
-			"versionNonce": 958956555,
+			"version": 60,
+			"versionNonce": 1274001308,
 			"isDeleted": false,
 			"id": "u5KXbmRO",
 			"fillStyle": "hachure",
@@ -1778,7 +1469,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711815015798,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1794,8 +1485,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 15,
-			"versionNonce": 596689829,
+			"version": 16,
+			"versionNonce": 1975394340,
 			"isDeleted": false,
 			"id": "WcwXsbqd",
 			"fillStyle": "hachure",
@@ -1815,7 +1506,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711815012158,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1831,8 +1522,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 51,
-			"versionNonce": 1006388709,
+			"version": 52,
+			"versionNonce": 1691247644,
 			"isDeleted": false,
 			"id": "bA58bYrt",
 			"fillStyle": "hachure",
@@ -1857,7 +1548,7 @@ Quorum모델 사용 (다수결 투표)
 					"type": "arrow"
 				}
 			],
-			"updated": 1711815014690,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1873,8 +1564,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "arrow",
-			"version": 70,
-			"versionNonce": 1600964779,
+			"version": 79,
+			"versionNonce": 1624144804,
 			"isDeleted": false,
 			"id": "mmew3nMlbdNVXc6AOUy11",
 			"fillStyle": "hachure",
@@ -1896,7 +1587,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711813980121,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1925,8 +1616,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "arrow",
-			"version": 116,
-			"versionNonce": 1102588107,
+			"version": 125,
+			"versionNonce": 908296348,
 			"isDeleted": false,
 			"id": "tPUHSKiHqKM3cBrDXYZyN",
 			"fillStyle": "hachure",
@@ -1935,11 +1626,11 @@ Quorum모델 사용 (다수결 투표)
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 300.69938191956976,
+			"x": 300.69552964547,
 			"y": -357.3071884013651,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e3fafc",
-			"width": 41.56354342022843,
+			"width": 41.56583844118575,
 			"height": 101.80802942976123,
 			"seed": 1142380101,
 			"groupIds": [],
@@ -1948,7 +1639,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711814309988,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1970,15 +1661,15 @@ Quorum모델 사용 (다수결 투표)
 					0
 				],
 				[
-					41.56354342022843,
+					41.56583844118575,
 					-101.80802942976123
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 254,
-			"versionNonce": 225824933,
+			"version": 259,
+			"versionNonce": 1346856740,
 			"isDeleted": false,
 			"id": "HGD28QM4XB_VkQp-OjaN3",
 			"fillStyle": "hachure",
@@ -1987,11 +1678,11 @@ Quorum모델 사용 (다수결 투표)
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 521.7430135464175,
+			"x": 521.7470675677288,
 			"y": -370.1500018248199,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e3fafc",
-			"width": 61.18499373648547,
+			"width": 61.187379183012354,
 			"height": 88.95329317703704,
 			"seed": 1892223723,
 			"groupIds": [],
@@ -2000,7 +1691,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711815014690,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2022,15 +1713,15 @@ Quorum모델 사용 (다수결 투표)
 					0
 				],
 				[
-					-61.18499373648547,
+					-61.187379183012354,
 					-88.95329317703704
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 215,
-			"versionNonce": 1831055723,
+			"version": 224,
+			"versionNonce": 1201736988,
 			"isDeleted": false,
 			"id": "qpBMJ7ZOHPS8yke5DHkqj",
 			"fillStyle": "hachure",
@@ -2052,7 +1743,7 @@ Quorum모델 사용 (다수결 투표)
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711813980121,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2081,8 +1772,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 220,
-			"versionNonce": 924063083,
+			"version": 221,
+			"versionNonce": 1217847972,
 			"isDeleted": false,
 			"id": "LxIrRPIz",
 			"fillStyle": "hachure",
@@ -2102,7 +1793,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711812927441,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2118,8 +1809,8 @@ Quorum모델 사용 (다수결 투표)
 		},
 		{
 			"type": "text",
-			"version": 652,
-			"versionNonce": 229119979,
+			"version": 653,
+			"versionNonce": 1522076060,
 			"isDeleted": false,
 			"id": "prBJkTJm",
 			"fillStyle": "hachure",
@@ -2139,7 +1830,7 @@ Quorum모델 사용 (다수결 투표)
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711813041997,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2154,33 +1845,42 @@ Quorum모델 사용 (다수결 투표)
 			"baseline": 54
 		},
 		{
-			"id": "WFBUnMsKZUHofUmihN701",
 			"type": "arrow",
-			"x": 80.76304172645409,
-			"y": -615.1255124155135,
-			"width": 144.63273444511054,
-			"height": 88.61384910882146,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#e3fafc",
+			"version": 140,
+			"versionNonce": 275443236,
+			"isDeleted": false,
+			"id": "WFBUnMsKZUHofUmihN701",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "dashed",
 			"roughness": 2,
 			"opacity": 100,
+			"angle": 0,
+			"x": 80.76304172645409,
+			"y": -615.1255124155135,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#e3fafc",
+			"width": 144.63273444511054,
+			"height": 88.61384910882146,
+			"seed": 1453996203,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1453996203,
-			"version": 139,
-			"versionNonce": 1189296965,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1711814373954,
+			"boundElements": [],
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
+			"startBinding": {
+				"elementId": "dp8OatiL",
+				"focus": 0.9711684105640547,
+				"gap": 6.695540715412278
+			},
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -2190,120 +1890,80 @@ Quorum모델 사용 (다수결 투표)
 					144.63273444511054,
 					88.61384910882146
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "dp8OatiL",
-				"focus": 0.9711684105640547,
-				"gap": 6.695540715412278
-			},
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"type": "arrow",
-			"version": 991,
-			"versionNonce": 1442178891,
-			"isDeleted": true,
-			"id": "ENdq7CxM4DF7jV-uSgXoN",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 193.8210970819462,
-			"y": -580.6351572676261,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 166.26574262328168,
-			"height": 36.164839540078674,
-			"seed": 325229317,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1711814305443,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "dp8OatiL",
-				"gap": 23.296832445725357,
-				"focus": 1.0160265822288546
-			},
-			"endBinding": {
-				"elementId": "G3uDm0C0xvFNrMXsKBLXB",
-				"gap": 16.17765052322261,
-				"focus": 0.6300552027279697
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					166.26574262328168,
-					36.164839540078674
-				]
 			]
 		},
 		{
-			"type": "arrow",
-			"version": 273,
-			"versionNonce": 1005006955,
-			"isDeleted": true,
-			"id": "A-t_2JdwePsef68R2ILl1",
+			"type": "text",
+			"version": 336,
+			"versionNonce": 849180188,
+			"isDeleted": false,
+			"id": "EUkN3AfD",
 			"fillStyle": "hachure",
-			"strokeWidth": 0.5,
-			"strokeStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 378.1930863495797,
-			"y": -547.6361845529292,
-			"strokeColor": "#e03131",
+			"x": 709.5000671933909,
+			"y": -37.92610119824735,
+			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e3fafc",
-			"width": 180.62305054882955,
-			"height": 69.13479002238932,
-			"seed": 694853643,
+			"width": 512.39990234375,
+			"height": 60,
+			"seed": 570498212,
 			"groupIds": [],
 			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
+			"roundness": null,
 			"boundElements": [],
-			"updated": 1711814294249,
+			"updated": 1713696214414,
 			"link": null,
 			"locked": false,
-			"startBinding": {
-				"elementId": "G3uDm0C0xvFNrMXsKBLXB",
-				"gap": 19.343517348604337,
-				"focus": 0.48653491465514975
-			},
-			"endBinding": {
-				"elementId": "dp8OatiL",
-				"gap": 23.296832445725357,
-				"focus": 1.140115711753227
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-180.62305054882955,
-					-69.13479002238932
-				]
-			]
+			"fontSize": 16,
+			"fontFamily": 1,
+			"text": "Writer인스턴스가 데이터를 작성하면,\nAurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터를 동기화 하고\n이 데이터는 모든 스토리지 노드를 통해 동시에 접근이 가능하다.",
+			"rawText": "Writer인스턴스가 데이터를 작성하면,\nAurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터를 동기화 하고\n이 데이터는 모든 스토리지 노드를 통해 동시에 접근이 가능하다.",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Writer인스턴스가 데이터를 작성하면,\nAurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터를 동기화 하고\n이 데이터는 모든 스토리지 노드를 통해 동시에 접근이 가능하다.",
+			"lineHeight": 1.25,
+			"baseline": 54
+		},
+		{
+			"text": "📍[[BackLog]]",
+			"fontSize": 16,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 14,
+			"id": "N2JULE6Q",
+			"type": "text",
+			"x": -4.3666428115602685,
+			"y": -515.6192914745633,
+			"width": 116.30393981933594,
+			"height": 20,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"roundness": null,
+			"seed": 92903,
+			"version": 2,
+			"versionNonce": 1756465572,
+			"updated": 1713696214414,
+			"isDeleted": true,
+			"groupIds": [],
+			"boundElements": [],
+			"link": "[[BackLog]]",
+			"locked": false,
+			"containerId": null,
+			"originalText": "📍[[BackLog]]",
+			"rawText": "[[BackLog]]",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -2321,10 +1981,10 @@ Quorum모델 사용 (다수결 투표)
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 292.7853983694612,
-		"scrollY": 1043.4090742137444,
+		"scrollX": 362.96690012520827,
+		"scrollY": 945.0166129067878,
 		"zoom": {
-			"value": 1.1511595465580382
+			"value": 1.0666899465498025
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
