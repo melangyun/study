@@ -80,7 +80,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.4",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.4",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -246,8 +246,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "mxfGA4PFie74496ujUVaE",
 			"originalText": "Cluster Endpoint\n(Aurora cluster)",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -325,13 +324,12 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "SsWZ5l-grMGsiCfkfstF9",
 			"originalText": "primary instance",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 1723,
-			"versionNonce": 1744189596,
+			"version": 1727,
+			"versionNonce": 312365253,
 			"isDeleted": false,
 			"id": "B99ErKRdNnm4Ica1EP4Of",
 			"fillStyle": "solid",
@@ -340,12 +338,12 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -42.294397196252305,
+			"x": -42.294418874334816,
 			"y": -618.8719293130796,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 3.0313320143193394,
-			"height": 104.97211753122144,
+			"width": 3.0313444775055274,
+			"height": 104.97211753122156,
 			"seed": 1107806661,
 			"groupIds": [],
 			"frameId": null,
@@ -353,7 +351,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472008,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -375,8 +373,8 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 					0
 				],
 				[
-					3.0313320143193394,
-					104.97211753122144
+					3.0313444775055274,
+					104.97211753122156
 				]
 			]
 		},
@@ -464,8 +462,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "G3uDm0C0xvFNrMXsKBLXB",
 			"originalText": "Reader Endpoint\n(Replica loadbalance)",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -547,13 +544,12 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "gQzE4WPuVcpmWlr_Ootbk",
 			"originalText": "instance",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 979,
-			"versionNonce": 1001240100,
+			"version": 983,
+			"versionNonce": 1413673285,
 			"isDeleted": false,
 			"id": "1rDeONUIBBDo_gJllYXXC",
 			"fillStyle": "solid",
@@ -562,11 +558,11 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 367.26718227596774,
+			"x": 367.26714213424975,
 			"y": -458.29056021111427,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 50.8470198134591,
+			"width": 50.846995434281325,
 			"height": 102.70873227503722,
 			"seed": 288721675,
 			"groupIds": [],
@@ -575,7 +571,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472010,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -597,15 +593,15 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 					0
 				],
 				[
-					-50.8470198134591,
+					-50.846995434281325,
 					102.70873227503722
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 1235,
-			"versionNonce": 1741368860,
+			"version": 1239,
+			"versionNonce": 1904923077,
 			"isDeleted": false,
 			"id": "hLn9G0DQrePqe7qkV39_n",
 			"fillStyle": "solid",
@@ -614,11 +610,11 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 448.2894916664417,
+			"x": 448.28952294323113,
 			"y": -460.4278932101486,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 61.2836607369552,
+			"width": 61.283640965077836,
 			"height": 102.01686282552367,
 			"seed": 917577899,
 			"groupIds": [],
@@ -627,7 +623,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472011,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -649,7 +645,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 					0
 				],
 				[
-					61.2836607369552,
+					61.283640965077836,
 					102.01686282552367
 				]
 			]
@@ -693,8 +689,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "\ncluster level end point\n- Cluster Endpoint\n- Reader Endpoint\n\nCluster endpoint에 요청해도\nAurora는 분산을 위해 읽기 작업을\n복제본에게 판단하고 요청할 수 있다.",
-			"lineHeight": 1.25,
-			"baseline": 154
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -730,8 +725,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "reader replica를\nfailover에 사용한다.",
-			"lineHeight": 1.25,
-			"baseline": 34
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -767,8 +761,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "다른 엔진은 클러스터를 쓸건지\n인스턴스만 쓸건지 정할 수 있지만\nAurora는 반드시 클러스터를 생성해야 한다.",
-			"lineHeight": 1.25,
-			"baseline": 54
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -804,8 +797,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Single-Master구조 기준",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -870,8 +862,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Aurora Storage Cluster",
-			"lineHeight": 1.25,
-			"baseline": 24
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -945,8 +936,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "h43ifr2WAf0D7D4aKjpbP",
 			"originalText": "storage\nNode",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -1016,8 +1006,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "bM_RjprX7kMLrgCkMbfkO",
 			"originalText": "storage\nNode",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -1091,8 +1080,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "exU5Br7dGIzvBVoUWQIZ8",
 			"originalText": "storage\nNode",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -1162,8 +1150,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "e9Aai5mKjUMmg7UVEMjiU",
 			"originalText": "storage\nNode",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -1233,8 +1220,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "Esb5Jtx_1HIjs6UCyRx-m",
 			"originalText": "storage\nNode",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -1308,13 +1294,12 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "Z0gO1eGTFBkvR5SCO8D4l",
 			"originalText": "storage\nNode",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 749,
-			"versionNonce": 375331108,
+			"version": 753,
+			"versionNonce": 981498245,
 			"isDeleted": false,
 			"id": "9-oNWiBvL9BKmT4FZTdY6",
 			"fillStyle": "solid",
@@ -1336,7 +1321,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472010,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1443,8 +1428,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "middle",
 			"containerId": "ssZURFtFjWf9daq8xjiQ0",
 			"originalText": "instance",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -1480,8 +1464,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Availability Zone 1",
-			"lineHeight": 1.25,
-			"baseline": 14
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -1517,8 +1500,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Availability Zone 2",
-			"lineHeight": 1.25,
-			"baseline": 14
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -1559,13 +1541,12 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Availabilty Zone3",
-			"lineHeight": 1.25,
-			"baseline": 14
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 79,
-			"versionNonce": 1624144804,
+			"version": 83,
+			"versionNonce": 1845075013,
 			"isDeleted": false,
 			"id": "mmew3nMlbdNVXc6AOUy11",
 			"fillStyle": "hachure",
@@ -1587,7 +1568,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472010,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1616,8 +1597,8 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 		},
 		{
 			"type": "arrow",
-			"version": 125,
-			"versionNonce": 908296348,
+			"version": 129,
+			"versionNonce": 1644275397,
 			"isDeleted": false,
 			"id": "tPUHSKiHqKM3cBrDXYZyN",
 			"fillStyle": "hachure",
@@ -1626,11 +1607,11 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 300.69552964547,
+			"x": 300.69544179604134,
 			"y": -357.3071884013651,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e3fafc",
-			"width": 41.56583844118575,
+			"width": 41.56589077813652,
 			"height": 101.80802942976123,
 			"seed": 1142380101,
 			"groupIds": [],
@@ -1639,7 +1620,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472010,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1661,15 +1642,15 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 					0
 				],
 				[
-					41.56583844118575,
+					41.56589077813652,
 					-101.80802942976123
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 259,
-			"versionNonce": 1346856740,
+			"version": 261,
+			"versionNonce": 883625605,
 			"isDeleted": false,
 			"id": "HGD28QM4XB_VkQp-OjaN3",
 			"fillStyle": "hachure",
@@ -1678,11 +1659,11 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 521.7470675677288,
+			"x": 521.7471505965561,
 			"y": -370.1500018248199,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#e3fafc",
-			"width": 61.187379183012354,
+			"width": 61.18742803841121,
 			"height": 88.95329317703704,
 			"seed": 1892223723,
 			"groupIds": [],
@@ -1691,7 +1672,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472009,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1713,15 +1694,15 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 					0
 				],
 				[
-					-61.187379183012354,
+					-61.18742803841121,
 					-88.95329317703704
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 224,
-			"versionNonce": 1201736988,
+			"version": 228,
+			"versionNonce": 1408951429,
 			"isDeleted": false,
 			"id": "qpBMJ7ZOHPS8yke5DHkqj",
 			"fillStyle": "hachure",
@@ -1743,7 +1724,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630472011,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1804,8 +1785,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "각 AZ마다 2개의 데이터 복제본 저장 => 최소 6개의 복제본",
-			"lineHeight": 1.25,
-			"baseline": 14
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -1841,13 +1821,12 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Quorum모델 사용 (다수결 투표)\n만일 6개중 4개의 노드에만기록되었을 경우\n완전한 데이터로 인정하겠다",
-			"lineHeight": 1.25,
-			"baseline": 54
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 140,
-			"versionNonce": 275443236,
+			"version": 142,
+			"versionNonce": 1624643237,
 			"isDeleted": false,
 			"id": "WFBUnMsKZUHofUmihN701",
 			"fillStyle": "hachure",
@@ -1856,7 +1835,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 0,
-			"x": 80.76304172645409,
+			"x": 81.07554172645409,
 			"y": -615.1255124155135,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e3fafc",
@@ -1869,13 +1848,13 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713696214414,
+			"updated": 1714630476826,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "dp8OatiL",
-				"focus": 0.9711684105640547,
-				"gap": 6.695540715412278
+				"focus": 0.9699311075076436,
+				"gap": 6.383040715412278
 			},
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -1926,43 +1905,6 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Writer인스턴스가 데이터를 작성하면,\nAurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터를 동기화 하고\n이 데이터는 모든 스토리지 노드를 통해 동시에 접근이 가능하다.",
-			"lineHeight": 1.25,
-			"baseline": 54
-		},
-		{
-			"text": "📍[[BackLog]]",
-			"fontSize": 16,
-			"fontFamily": 1,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 14,
-			"id": "N2JULE6Q",
-			"type": "text",
-			"x": -4.3666428115602685,
-			"y": -515.6192914745633,
-			"width": 116.30393981933594,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"roundness": null,
-			"seed": 92903,
-			"version": 2,
-			"versionNonce": 1756465572,
-			"updated": 1713696214414,
-			"isDeleted": true,
-			"groupIds": [],
-			"boundElements": [],
-			"link": "[[BackLog]]",
-			"locked": false,
-			"containerId": null,
-			"originalText": "📍[[BackLog]]",
-			"rawText": "[[BackLog]]",
 			"lineHeight": 1.25
 		}
 	],
@@ -1981,10 +1923,10 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 362.96690012520827,
-		"scrollY": 945.0166129067878,
+		"scrollX": 434.44427346338205,
+		"scrollY": 919.152486733761,
 		"zoom": {
-			"value": 1.0666899465498025
+			"value": 0.75
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
