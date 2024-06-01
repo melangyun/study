@@ -46,4 +46,4 @@ Topic: topic-example1	TopicId: zFXqNM-eRBCeRXV6oamM9Q	PartitionCount: 1	Replicat
 ---
 https://velog.io/@haerong22/Apache-Kafka-CLI-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95
 
-[[Kafka]]
+[[Study/server/EDA/Kafka]]
