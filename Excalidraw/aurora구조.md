@@ -80,7 +80,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.4",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.0",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -1906,6 +1906,266 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 			"containerId": null,
 			"originalText": "Writer인스턴스가 데이터를 작성하면,\nAurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터를 동기화 하고\n이 데이터는 모든 스토리지 노드를 통해 동시에 접근이 가능하다.",
 			"lineHeight": 1.25
+		},
+		{
+			"type": "arrow",
+			"version": 973,
+			"versionNonce": 1877811777,
+			"isDeleted": false,
+			"id": "-llzfj1-Icniv4a8RQO9V",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -46.18905785078889,
+			"y": -348.7009022157158,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 56.045310960030406,
+			"height": 354.7432618635561,
+			"seed": 1790498955,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1715762925198,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "SsWZ5l-grMGsiCfkfstF9",
+				"gap": 16.888521477990025,
+				"focus": 0.23790328348226672
+			},
+			"endBinding": {
+				"elementId": "bM_RjprX7kMLrgCkMbfkO",
+				"gap": 13.036958118459381,
+				"focus": 0.022459390943088537
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					56.045310960030406,
+					354.7432618635561
+				]
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 1136,
+			"versionNonce": 61359617,
+			"isDeleted": false,
+			"id": "cGEUe-1EpHReuGdbdwlN-",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -44.056044276453946,
+			"y": -353.72070372255837,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 205.01139682528424,
+			"height": 351.4885280673725,
+			"seed": 571595115,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1715762925198,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "SsWZ5l-grMGsiCfkfstF9",
+				"gap": 11.86871997114747,
+				"focus": 0.4261463184719737
+			},
+			"endBinding": {
+				"elementId": "exU5Br7dGIzvBVoUWQIZ8",
+				"gap": 24.224751586244622,
+				"focus": 0.44220444403722897
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					205.01139682528424,
+					351.4885280673725
+				]
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 1245,
+			"versionNonce": 1885912449,
+			"isDeleted": false,
+			"id": "ogZJgV8jQCv2f9WICpjW8",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -44.15411586320826,
+			"y": -353.51246321176325,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 336.9470971486111,
+			"height": 348.6016406155402,
+			"seed": 1116954085,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1715762925199,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "SsWZ5l-grMGsiCfkfstF9",
+				"gap": 12.076960481942592,
+				"focus": 0.5531861836519959
+			},
+			"endBinding": {
+				"elementId": "e9Aai5mKjUMmg7UVEMjiU",
+				"gap": 25.706608458096355,
+				"focus": 0.633742009038225
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					336.9470971486111,
+					348.6016406155402
+				]
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 1419,
+			"versionNonce": 1139151169,
+			"isDeleted": false,
+			"id": "5C20_l75YxIV5xmhzOWyE",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -42.35793140189173,
+			"y": -355.07121203574195,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 478.74631302035743,
+			"height": 351.1258840172787,
+			"seed": 1531029067,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1715762925199,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "SsWZ5l-grMGsiCfkfstF9",
+				"gap": 10.518211657963832,
+				"focus": 0.6244480065250135
+			},
+			"endBinding": {
+				"elementId": "Esb5Jtx_1HIjs6UCyRx-m",
+				"gap": 22.934995858751734,
+				"focus": 0.7261473436860031
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					478.74631302035743,
+					351.1258840172787
+				]
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 1486,
+			"versionNonce": 326202625,
+			"isDeleted": false,
+			"id": "Ge3BF9PcWbb0PO0bQaAwE",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -27.029748900037873,
+			"y": -347.2817952888971,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 579.8285537608988,
+			"height": 343.02016194440165,
+			"seed": 2066305835,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1715762925200,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "SsWZ5l-grMGsiCfkfstF9",
+				"gap": 18.307628404808668,
+				"focus": 0.6715141756911491
+			},
+			"endBinding": {
+				"elementId": "Z0gO1eGTFBkvR5SCO8D4l",
+				"gap": 22.054511115598586,
+				"focus": 0.7179914922549164
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					579.8285537608988,
+					343.02016194440165
+				]
+			]
 		}
 	],
 	"appState": {
@@ -1923,7 +2183,7 @@ Aurora 스토리지 엔진은 자동으로 여러 물리적 위치에 데이터�
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 434.44427346338205,
+		"scrollX": 640.2284586866365,
 		"scrollY": 919.152486733761,
 		"zoom": {
 			"value": 0.75
