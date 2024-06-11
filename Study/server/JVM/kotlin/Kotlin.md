@@ -1,0 +1,7 @@
+- [[`const val` vs `val`]]
+- [[data  object]]
+- [[Kotlin Lazy Initialization]]
+- [[kotlin scope Function]]
+- [[object and companion object (kotlin)]]
+- [[require, check]]
+- [[sealed class]]
