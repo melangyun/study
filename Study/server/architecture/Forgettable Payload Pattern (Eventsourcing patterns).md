@@ -22,3 +22,8 @@
 ---
 [Eventsourcing Patterns: Forgettable Payloads](https://verraes.net/2019/05/eventsourcing-patterns-forgettable-payloads/)
 [Challenges of Building GDPR Compliant Event-Sourced System](https://world.hey.com/otar/challenges-of-building-gdpr-compliant-event-sourced-system-0db251d4)
+
+---
+보안, 데이터 보호 및 컴플라이언스 요구사항을 충족하기 위해 설계된 데이터 저장방법.
+데이터 수명을 제한하거나, 사용 후 데이터를 잊어버릴 수 있도록 설계된 메커니즘을 포함함. 이를 통해 민감한 데이터가 불필요하게 오랜 기간 저장되지 않도록 하고, 데이터 유출 시 피해를 최소한으로 할 수 있다.
+

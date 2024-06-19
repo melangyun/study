@@ -18,7 +18,8 @@
 
 ## Batch에서 Data를 읽는 절대적인 방법 => Chunk Processing
 대량 Batch Processing은 항상 chunkProcessing을 이용할 수 밖에 없다.
-- 천만개의 데이터를 한번에 가져와 처리할 수 있는 애플리케이션은 사실상 없다.
+- <mark style="background: #D2B3FFA6;">천만개의 데이터를 한번에 가져와 처리할 수 있는 애플리케이션은 사실상 없다.
+</mark>
 
 ## Chunk Processing의 짝꿍으로 Pagination Reader를 사용하게 된다.
 데이터를 한번에 받는것이 아닌, page단위로 받기 위함
