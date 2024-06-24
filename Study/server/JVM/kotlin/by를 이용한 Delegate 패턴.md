@@ -38,7 +38,7 @@ fun main(){
 
 이렇게 하면 ReportGenerator 클래스는 Printer의 구체적인 구현을 신경쓰지 않고, 다양한 Printer구현체를 사용할 수 있다.
 
-> [!question] Delegate패턴과 전략패턴은 뭐가 다를까?
+> [!question] Delegate패턴과 [[전략패턴(Strategy Pattern)]]은 뭐가 다를까?
 > Delegate패턴은 주로 기능의 재사용과 책임 분리에 중점을 두며, 클라이언트 객체는 위임 객체의 메서드를 직접 호출한다.
 > 전략패턴은 알고리즘의 캡슐화와 `교환 가능성`에 더 중점을 두며, 클라이언트 객체는 전략 객체를 통해 메서드를 호출하고 런타임에 변경할 수 있다.
 
