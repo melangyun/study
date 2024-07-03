@@ -5,3 +5,4 @@
 - [[object and companion object (kotlin)]]
 - [[require, check]]
 - [[sealed class]]
+- [[by를 이용한 Delegate 패턴]]
