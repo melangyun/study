@@ -1,4 +1,4 @@
-리[DB RDBMS의 한계와 NoSQL을 사용하는 이유 (1) CAP, PACELC 이론](https://sujl95.tistory.com/81)
+[DB RDBMS의 한계와 NoSQL을 사용하는 이유 (1) CAP, PACELC 이론](https://sujl95.tistory.com/81)
 ---
 분산 컴퓨팅 환경은 `일관성(Consistency)` , `가용성(Availability)`, `분할 내성(Partitioning)` 세가지 특징을 가지고 있다. CAP이론은 이 중 두가지만 만족할 수 있다는 이론이다. NoSQL대부분은 이 CAP이론을 따른다.
 
