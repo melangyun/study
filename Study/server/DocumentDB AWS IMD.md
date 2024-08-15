@@ -14,9 +14,9 @@
 # DocumetDB
 Document 모델을 기반으로 하는 Database이다.
 - [c] NoSQL이라고 하면 `Schema free`라고 생각하기 쉬운데 이건 착각일 수 있다.
-	- mysql 에서는 디자인을 하는데, NoSQfL은 Storage로 사용하려고하는데 이건 절대 안된다.
+	- mysql 에서는 디자인을 하는데, NoSQL은 Storage로 사용하려고하는데 이건 절대 안된다.
 
-Document는 일종의 JSON. DDB나 MongoDB는[[DocumentDB AWS IMD 정리본]] 이를 `Binary 형태`로 바꿈 (text형태와 다른 장단이 있음)
+Document는 일종의 JSON. DDB나 MongoDB는 이를 `Binary 형태`로 바꿈 (text형태와 다른 장단이 있음)
 - 다양한 타입 표현 가능
 - 효율적
 
@@ -32,7 +32,7 @@ Document는 일종의 JSON. DDB나 MongoDB는[[DocumentDB AWS IMD 정리본]] �
 	> - CRUD/ Frequncy / TYPE
 
 2. Read & Write Queries
-- DDB도 RDB와 동일시 실행계획같은것들을 살펴봐야한다.
+- DDB도 RDB와 동일히 실행계획도 살펴봐야한다.
 
 # Identify RelaitonShip
 noSQL이 관계가 존재하지 않는다는 착각을 하기 쉬운데 존재한다.
