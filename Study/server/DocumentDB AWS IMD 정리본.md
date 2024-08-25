@@ -21,7 +21,6 @@ Document는 일종의 JSON이다. DocumentDB나, MongoDB에서는 이를 Binary 
 
 **Collections**
 Collections는 문서의 그룹이며, 유사한 내용을 가진 문서를 저장한다. Document DB는 유연한 스키마가 제공되기 때문에, 컬렉션의 모든 문서에 동일한 필드가 필요한것은 아니다. 
-일부 Document DB는 스키마 유효성을 제공하기 때문에, 스키마를 선택적으로 잠글 수 있다.
 
 - RDB: 복잡한 트랜잭션이 필요하고, 데이터 관계가 명확하게 정의된 경우(ex: 금융 시스템, 주문관리 시스템)
 - DocumentDB: 비정형 데이터나 빈번한 데이터 구조 변경이 발생하는 경우(Ex: 콘텐츠 관리, IoT, Catalogs)
@@ -48,7 +47,7 @@ Collections는 문서의 그룹이며, 유사한 내용을 가진 문서를 저�
 
  - 또, DocumentDB도 RDB와 동일히 실행 계획도 살펴봐야한다
 
-## Identify RelationShip
+## Identify Relationship
 - [MongoDB_Embeded_vs_Embed](https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/)
 DocumentDB에서도 관계가 존재한다. (RDB와는 표현방식은 다르다) 
 - `References` vs `Embed`
@@ -61,7 +60,7 @@ DocumentDB에서도 관계가 존재한다. (RDB와는 표현방식은 다르다
 **UseCases**
 - 엔티티간 포함관계가 있음
 - 엔티티가 1:N 관계에 있음
-읽기 작업 성능이 향상하며, 단일 작업에서 관련 데이터를 검색할 수 있다.
+읽기 작업 성능이 향상되며, 단일 작업에서 관련 데이터를 검색할 수 있다.
 
 ### References
 ![References](https://www.mongodb.com/docs/manual/images/data-model-normalized.bakedsvg.svg)
@@ -144,8 +143,7 @@ Attributes Pattern을 이용하여, 정보를 하위 subset으로 이동.
 [MongoDB_Bucket](https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern)
 Document가 너무 많아졌을 경우. 임베딩하기 어려운 1:N 관계에서 사용
 시계열 데이터에서 많이 사용한다.
-- 그룹화할 적정량의 데이터를 지정하고
-- 메인 Document에 array를 만들어 저장한다.
+- 그룹화할 적정량의 데이터를 지정하고 메인 Document에 array를 만들어 저장한다.
 ```js
 // 만일 매 분마다 온도를 측정하는 데이터가 쌓이는 경우
 {
@@ -193,7 +191,7 @@ Bucket Pattern 적용 후
    sum_temperature: 2413
 } 
 ```
-## 3. Subset Pattern
+## 4. Subset Pattern
 [MongoDB_SubsetPattern](https://www.mongodb.com/blog/post/building-with-patterns-the-subset-pattern)
 작업 데이터가 너무 커서 메모리에 캐시를 유지하기 어려울때.
 혹은 Document의 큰 부분이 자주 사용되지 않는 경우
@@ -202,7 +200,7 @@ Bucket Pattern 적용 후
 
 따라서, 두개의 컬랙션으로 나눠볼 수 있을것이다.
 
-## 4. Schema Versioning Pattern
+## 5. Schema Versioning Pattern
 동일한 컬렉션에 여러 Document 모델이 존재할때. 애플리케이션을 가동 중지할 수 없거나, 문서를 새 버전으로 업데이트 하고싶지 않을때, 마이그레이션 시기 조정이 필요할때 사용
 ```json
 {
